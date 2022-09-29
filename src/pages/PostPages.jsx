@@ -7,12 +7,9 @@ function PostPages() {
 
   return (
     <>
-      <NavBar></NavBar>
+  
       <PostItem></PostItem>
-      
- 
-     
-   
+
     </>
   );
 }

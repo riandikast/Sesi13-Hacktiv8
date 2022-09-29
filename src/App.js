@@ -1,17 +1,17 @@
 import { Routes, Route } from "react-router-dom";
 import "./App.css";
 import Post from "./pages/PostPages";
-import PostDetailPages from "./pages/PostDetailPages";
+
+
+import NavBar from "./component/Navbar";
 
 function App() {
   return (
     <div className="">
+      <NavBar></NavBar>
       <Routes>
         <Route path="/" element={<Post></Post>} />
 
-        <Route path="/:id" element={<PostDetailPages></PostDetailPages>}>
-     
-        </Route>
       </Routes>
     </div>
   );
